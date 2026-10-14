@@ -5,7 +5,7 @@ from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 
 JSON_FILE = Path(__file__).parent / "vocab_250.json"
-HOST, PORT = "0.0.0.0", 8000      # 0.0.0.0 lets a real phone on your Wi-Fi connect too
+HOST, PORT = "0.0.0.0", 8005      # 0.0.0.0 lets a real phone on your Wi-Fi connect too
 
 
 def load_words():

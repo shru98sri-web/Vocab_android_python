@@ -5,7 +5,7 @@ from bson.objectid import ObjectId
 app = Flask(__name__)
 
 # Configure MongoDB connection to your local instance
-app.config["MONGO_URI"] = "mongodb://localhost:27017/vocab_db"
+app.config["MONGO_URI"] = "mongodb://127.0.0.1:27017/vocab_db"
 mongo = PyMongo(app)
 
 # Helper function to seed data (similar to your seed_database_if_empty function)
